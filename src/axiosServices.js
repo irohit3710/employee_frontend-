@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = `https://render.com/docs/web-services#port-detection`
+const baseURL = `https://employee-backend2.onrender.com`
 
 export const axiosGet = (url) =>{
     return axios.get(`${baseURL}${url}`, {
